@@ -1,8 +1,11 @@
 body {
   text-align: center;
   background-color: #011F3F;
+  
 }
-
+.wrong {
+  background-color: red;
+}
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
@@ -16,7 +19,9 @@ body {
   margin: auto;
 
 }
-
+footer{
+  color: antiquewhite;
+}
 .btn {
   margin: 25px;
   display: inline-block;

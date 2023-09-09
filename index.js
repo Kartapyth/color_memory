@@ -28,6 +28,10 @@ function game() {
                 wrong.play()
                 $("h1").text("wrong box, your score is: "+ (com.length - 1) +", to restart refresh the page ");
                 $(".btn").off("click")
+                $("body").addClass("wrong");
+    setTimeout(() => {
+        $("body").removeClass("wrong");
+    }, 100);
                
                 
             }
